@@ -7,9 +7,9 @@
       "tag": "v1.0.1",
       "date": "2026-11-22",
       "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.1.tar.gz",
-      "releaseSha256": "744177831f9f2ab9f075dc7b8c6439db5ee0af385a29518395a70293ac1d0b75",
-      "releaseSize": 1598328,
-      "notes": "空版本：验证管理器前后端整包自更新与自动重启。"
+      "releaseSha256": "3c7e5330f669e93073eaf18f13dbdebc8854b15833eee8322c42e40091ad73fa",
+      "releaseSize": 1600333,
+      "notes": "设置页加入版本与更新卡片：版本检测、自动更新开关、手动检查与立即更新。"
     }
   ]
 }
