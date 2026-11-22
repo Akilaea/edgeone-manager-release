@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "app": "edgeone-manager",
+  "version": "1.0.1",
+  "tag": "v1.0.1",
+  "publishedAt": "2026-11-22T16:20:30Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.1.tar.gz",
+  "releaseSha256": "4c56ad8c48889c0f832dcb667f3b98b3ee7a9ea6f200b8b3335dec1aa2a3965f",
+  "releaseSize": 1598270,
+  "notes": "空版本：仅递增管理器版本号，用于验证前后端整包自更新与自动重启；功能与 1.0.0 一致。"
+}
