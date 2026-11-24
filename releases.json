@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.19",
+  "latest": "1.0.20",
   "releases": [
+    {
+      "version": "1.0.20",
+      "tag": "v1.0.20",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.20.tar.gz",
+      "releaseSha256": "dcbedaf18ac4bb8f77a65d6fe2632ff325dba9527af3c2dfe27f2f285d76db4c",
+      "releaseSize": 1959711,
+      "notes": "TW_REG 高级参数仅保留容器数与线程数；账号固定 9，删除启动错峰。"
+    },
     {
       "version": "1.0.19",
       "tag": "v1.0.19",
@@ -9,16 +18,7 @@
       "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.19.tar.gz",
       "releaseSha256": "78e06314eb5fcfb3226cd82932735e53dfeb1a333675684979e32893cb3a16df",
       "releaseSize": 1958900,
-      "notes": "接入 TW_REG 2.2.0 /batch，一次启动后无后续请求。"
-    },
-    {
-      "version": "1.0.18",
-      "tag": "v1.0.18",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.18.tar.gz",
-      "releaseSha256": "da221b50038f47c3d186a6aa2d81d37b9f7e0496ec20f8db35de0abf19f185f2",
-      "releaseSize": 1751616,
-      "notes": "仪表盘双栏填充与空白优化。"
+      "notes": "TW_REG 2.2.0 /batch 接入。"
     }
   ]
 }
