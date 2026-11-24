@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.3",
+  "latest": "1.0.4",
   "releases": [
+    {
+      "version": "1.0.4",
+      "tag": "v1.0.4",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.4.tar.gz",
+      "releaseSha256": "dc8a648d50b4759881fa915f2b7c51de4519ef2c03d65af77b82e94bf3539350",
+      "releaseSize": 1610274,
+      "notes": "服务端分页、运行创建响应封顶、队列 O(1) 出队、端点计数批量查询；修复跨页选择清空。"
+    },
     {
       "version": "1.0.3",
       "tag": "v1.0.3",
@@ -10,15 +19,6 @@
       "releaseSha256": "a352d58412171ca2993feb4753e049720b40fcc3aa82c3c03e071abf1f7e5044",
       "releaseSize": 1610175,
       "notes": "TW_REG 账号分页、跨页全选、执行区与执行结果并排。"
-    },
-    {
-      "version": "1.0.2",
-      "tag": "v1.0.2",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.2.tar.gz",
-      "releaseSha256": "18cd1781ee1046c7b9a9545a39161028ba0c1745ba411cfd0593312d7dec44ac",
-      "releaseSize": 1601745,
-      "notes": "TW_REG 快速执行：执行时自动配置缺失端点，容器启动即成功，不再持续观察轮次。"
     }
   ]
 }
