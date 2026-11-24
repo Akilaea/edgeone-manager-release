@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.14",
+  "latest": "1.0.15",
   "releases": [
+    {
+      "version": "1.0.15",
+      "tag": "v1.0.15",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.15.tar.gz",
+      "releaseSha256": "45d52f92e577a50898961c83e0c6f6c48898cff409bb38c58e06a8738e9774d7",
+      "releaseSize": 1751725,
+      "notes": "仪表盘命名、概览分组、Twitch注册机入自动化组。"
+    },
     {
       "version": "1.0.14",
       "tag": "v1.0.14",
@@ -10,15 +19,6 @@
       "releaseSha256": "0dc7ddad5c3015d6030939ae48fd780ef89f60d6c488142216159af778a1e072",
       "releaseSize": 1751985,
       "notes": "导航重排为工作台/管理/自动化/系统。"
-    },
-    {
-      "version": "1.0.13",
-      "tag": "v1.0.13",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.13.tar.gz",
-      "releaseSha256": "38887113f0974cd3463e355275031a8c6ec30ba31e0ff28faa21cabcb9875ae7",
-      "releaseSize": 1751618,
-      "notes": "设置页三标签：自动化/安全/系统。"
     }
   ]
 }
