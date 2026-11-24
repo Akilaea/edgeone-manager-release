@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.14",
-  "tag": "v1.0.14",
-  "publishedAt": "2026-11-24T07:41:00Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.14.tar.gz",
-  "releaseSha256": "0dc7ddad5c3015d6030939ae48fd780ef89f60d6c488142216159af778a1e072",
-  "releaseSize": 1751985,
-  "notes": "导航按旧项目分类重排：工作台/管理/自动化/系统；API Keys 与 API 文档并入系统组，移除开发者分组。"
+  "version": "1.0.15",
+  "tag": "v1.0.15",
+  "publishedAt": "2026-11-24T07:43:30Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.15.tar.gz",
+  "releaseSha256": "45d52f92e577a50898961c83e0c6f6c48898cff409bb38c58e06a8738e9774d7",
+  "releaseSize": 1751725,
+  "notes": "概览页改名仪表盘，分组改名概览；TW_REG 改名 Twitch注册机并移入自动化分组。"
 }
