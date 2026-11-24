@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.15",
-  "tag": "v1.0.15",
-  "publishedAt": "2026-11-24T07:43:30Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.15.tar.gz",
-  "releaseSha256": "45d52f92e577a50898961c83e0c6f6c48898cff409bb38c58e06a8738e9774d7",
-  "releaseSize": 1751725,
-  "notes": "概览页改名仪表盘，分组改名概览；TW_REG 改名 Twitch注册机并移入自动化分组。"
+  "version": "1.0.18",
+  "tag": "v1.0.18",
+  "publishedAt": "2026-11-24T07:48:30Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.18.tar.gz",
+  "releaseSha256": "da221b50038f47c3d186a6aa2d81d37b9f7e0496ec20f8db35de0abf19f185f2",
+  "releaseSize": 1751616,
+  "notes": "仪表盘排版优化：移除冗余快捷入口和状态子卡，状态分布紧凑化；最近检测/最近审计改为双栏填充，消除大面积空白。"
 }
