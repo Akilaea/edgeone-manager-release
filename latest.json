@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.19",
-  "tag": "v1.0.19",
-  "publishedAt": "2026-11-24T09:24:30Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.19.tar.gz",
-  "releaseSha256": "78e06314eb5fcfb3226cd82932735e53dfeb1a333675684979e32893cb3a16df",
-  "releaseSize": 1958900,
-  "notes": "接入 TW_REG 2.2.0：/batch 一次请求启动 5 线程无限轮注册，直到容器结束；管理器发起后不再发送后续请求。"
+  "version": "1.0.20",
+  "tag": "v1.0.20",
+  "publishedAt": "2026-11-24T09:28:30Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.20.tar.gz",
+  "releaseSha256": "dcbedaf18ac4bb8f77a65d6fe2632ff325dba9527af3c2dfe27f2f285d76db4c",
+  "releaseSize": 1959711,
+  "notes": "TW_REG 高级参数精简：仅保留容器数与线程/容器；账号/线程固定 9，删除无效的启动错峰。"
 }
