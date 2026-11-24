@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.3",
-  "tag": "v1.0.3",
-  "publishedAt": "2026-11-24T06:31:00Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.3.tar.gz",
-  "releaseSha256": "a352d58412171ca2993feb4753e049720b40fcc3aa82c3c03e071abf1f7e5044",
-  "releaseSize": 1610175,
-  "notes": "TW_REG 项目页：账号表分页（20/50/100，跨页保留选择，一键全选全部）；执行区与执行结果并排展示，压缩结果表列宽。"
+  "version": "1.0.4",
+  "tag": "v1.0.4",
+  "publishedAt": "2026-11-24T06:40:00Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.4.tar.gz",
+  "releaseSha256": "dc8a648d50b4759881fa915f2b7c51de4519ef2c03d65af77b82e94bf3539350",
+  "releaseSize": 1610274,
+  "notes": "容量优化：TW_REG 总览改为服务端分页，运行创建响应封顶，队列 O(1) 出队，端点计数批量查询；修复跨页选择在翻页加载时被清空。"
 }
