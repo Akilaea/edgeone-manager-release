@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.1",
-  "tag": "v1.0.1",
-  "publishedAt": "2026-11-22T16:20:30Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.1.tar.gz",
-  "releaseSha256": "3c7e5330f669e93073eaf18f13dbdebc8854b15833eee8322c42e40091ad73fa",
-  "releaseSize": 1600333,
-  "notes": "管理器设置页加入版本与更新卡片：当前/最新版本、自动更新开关、上次检查、更新源、手动检查与立即更新。"
+  "version": "1.0.2",
+  "tag": "v1.0.2",
+  "publishedAt": "2026-11-24T06:20:00Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.2.tar.gz",
+  "releaseSha256": "18cd1781ee1046c7b9a9545a39161028ba0c1745ba411cfd0593312d7dec44ac",
+  "releaseSize": 1601745,
+  "notes": "TW_REG 改为勾选账号后直接执行：执行时自动配置缺失端点，容器启动成功即记为执行成功，不再预配置环境或持续观察轮次。"
 }
