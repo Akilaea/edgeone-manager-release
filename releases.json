@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.6",
+  "latest": "1.0.7",
   "releases": [
+    {
+      "version": "1.0.7",
+      "tag": "v1.0.7",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.7.tar.gz",
+      "releaseSha256": "f4bca4738500a1d1bc0db68a2c07a578e59aa668fa204a090e358824bb2360b4",
+      "releaseSize": 1609091,
+      "notes": "移除遗留 rounds=28 默认值；快速执行不循环轮次。"
+    },
     {
       "version": "1.0.6",
       "tag": "v1.0.6",
@@ -9,16 +18,7 @@
       "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.6.tar.gz",
       "releaseSha256": "aa204961e25fd4d1998e1a655e3384bb6e39a8babd97f7cb780ec1740bb1d533",
       "releaseSize": 1609096,
-      "notes": "精简 TW_REG 项目页：移除快速模式下无意义的注册/上传/vCPU 统计和预配置入口，改为最近执行状态。"
-    },
-    {
-      "version": "1.0.5",
-      "tag": "v1.0.5",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.5.tar.gz",
-      "releaseSha256": "1664f9d2f5e5f2c2149e13e44292df9c9b6fe467e53dc28157e822f291f4a73a",
-      "releaseSize": 1610832,
-      "notes": "可用账号口径与未跑全选一致；已配置端点数改为全局统计。"
+      "notes": "精简 TW_REG 项目页，移除快速模式下无意义的统计与预配置入口。"
     }
   ]
 }
