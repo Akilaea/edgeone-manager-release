@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.5",
-  "tag": "v1.0.5",
-  "publishedAt": "2026-11-24T06:52:30Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.5.tar.gz",
-  "releaseSha256": "1664f9d2f5e5f2c2149e13e44292df9c9b6fe467e53dc28157e822f291f4a73a",
-  "releaseSize": 1610832,
-  "notes": "统一可用账号口径：可用账号=本周期未跑且未运行的全部账号（含待自动配置端点）；已配置端点数量改为全局统计，不再受当前分页影响。"
+  "version": "1.0.6",
+  "tag": "v1.0.6",
+  "publishedAt": "2026-11-24T06:59:00Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.6.tar.gz",
+  "releaseSha256": "aa204961e25fd4d1998e1a655e3384bb6e39a8babd97f7cb780ec1740bb1d533",
+  "releaseSize": 1609096,
+  "notes": "TW_REG 项目页精简：移除快速模式下无意义的注册/上传/vCPU 统计与预配置入口；账号表改为最近执行状态；运行详情适配启动模式。"
 }
