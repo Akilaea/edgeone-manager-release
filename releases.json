@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.11",
+  "latest": "1.0.12",
   "releases": [
+    {
+      "version": "1.0.12",
+      "tag": "v1.0.12",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.12.tar.gz",
+      "releaseSha256": "82c6d24bebe962f5d23232c3cd893dbb34ee4912a513ce562e0c40072aaf64c1",
+      "releaseSize": 1751266,
+      "notes": "自动化日志页面 + 导航重分类；原测活设置移至自动化/调度设置。"
+    },
     {
       "version": "1.0.11",
       "tag": "v1.0.11",
@@ -9,16 +18,7 @@
       "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.11.tar.gz",
       "releaseSha256": "59aff57c2e457579755a09fb7c455f901e9520c5063a185ef913f0ec0b7052f9",
       "releaseSize": 1747478,
-      "notes": "仓库迁移至 xbox-cn，更新清单默认指向组织仓库。"
-    },
-    {
-      "version": "1.0.10",
-      "tag": "v1.0.10",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.10.tar.gz",
-      "releaseSha256": "92271159f339338755bd79aa0fbe5b755ab631b07a9e2c5acda9c1a8fad9c707",
-      "releaseSize": 1747183,
-      "notes": "TW_REG 2.0.2 continuous 模式：一个启动请求，沙箱内部循环批次。"
+      "notes": "仓库迁移至 xbox-cn。"
     }
   ]
 }
