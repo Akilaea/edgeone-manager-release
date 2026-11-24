@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.10",
+  "latest": "1.0.11",
   "releases": [
+    {
+      "version": "1.0.11",
+      "tag": "v1.0.11",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.11.tar.gz",
+      "releaseSha256": "59aff57c2e457579755a09fb7c455f901e9520c5063a185ef913f0ec0b7052f9",
+      "releaseSize": 1747478,
+      "notes": "仓库迁移至 xbox-cn，更新清单默认指向组织仓库。"
+    },
     {
       "version": "1.0.10",
       "tag": "v1.0.10",
@@ -9,16 +18,7 @@
       "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.10.tar.gz",
       "releaseSha256": "92271159f339338755bd79aa0fbe5b755ab631b07a9e2c5acda9c1a8fad9c707",
       "releaseSize": 1747183,
-      "notes": "TW_REG 2.0.2 continuous 模式：一个启动请求，沙箱内部循环批次；端点懒升级。"
-    },
-    {
-      "version": "1.0.9",
-      "tag": "v1.0.9",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.9.tar.gz",
-      "releaseSha256": "a6da56be4a6d96e84eda4f34837fd0aba3f8ab20b5f14de5455a6f9da8bda056",
-      "releaseSize": 1610806,
-      "notes": "默认每线程 60 账号、单批最长 1500 秒，约 2-3 次请求覆盖 3400 秒。"
+      "notes": "TW_REG 2.0.2 continuous 模式：一个启动请求，沙箱内部循环批次。"
     }
   ]
 }
