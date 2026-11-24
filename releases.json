@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.5",
+  "latest": "1.0.6",
   "releases": [
+    {
+      "version": "1.0.6",
+      "tag": "v1.0.6",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.6.tar.gz",
+      "releaseSha256": "aa204961e25fd4d1998e1a655e3384bb6e39a8babd97f7cb780ec1740bb1d533",
+      "releaseSize": 1609096,
+      "notes": "精简 TW_REG 项目页：移除快速模式下无意义的注册/上传/vCPU 统计和预配置入口，改为最近执行状态。"
+    },
     {
       "version": "1.0.5",
       "tag": "v1.0.5",
@@ -10,15 +19,6 @@
       "releaseSha256": "1664f9d2f5e5f2c2149e13e44292df9c9b6fe467e53dc28157e822f291f4a73a",
       "releaseSize": 1610832,
       "notes": "可用账号口径与未跑全选一致；已配置端点数改为全局统计。"
-    },
-    {
-      "version": "1.0.4",
-      "tag": "v1.0.4",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.4.tar.gz",
-      "releaseSha256": "dc8a648d50b4759881fa915f2b7c51de4519ef2c03d65af77b82e94bf3539350",
-      "releaseSize": 1610274,
-      "notes": "服务端分页、运行创建响应封顶、队列 O(1) 出队、端点计数批量查询；修复跨页选择清空。"
     }
   ]
 }
