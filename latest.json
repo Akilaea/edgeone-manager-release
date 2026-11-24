@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.4",
-  "tag": "v1.0.4",
-  "publishedAt": "2026-11-24T06:40:00Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.4.tar.gz",
-  "releaseSha256": "dc8a648d50b4759881fa915f2b7c51de4519ef2c03d65af77b82e94bf3539350",
-  "releaseSize": 1610274,
-  "notes": "容量优化：TW_REG 总览改为服务端分页，运行创建响应封顶，队列 O(1) 出队，端点计数批量查询；修复跨页选择在翻页加载时被清空。"
+  "version": "1.0.5",
+  "tag": "v1.0.5",
+  "publishedAt": "2026-11-24T06:52:30Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.5.tar.gz",
+  "releaseSha256": "1664f9d2f5e5f2c2149e13e44292df9c9b6fe467e53dc28157e822f291f4a73a",
+  "releaseSize": 1610832,
+  "notes": "统一可用账号口径：可用账号=本周期未跑且未运行的全部账号（含待自动配置端点）；已配置端点数量改为全局统计，不再受当前分页影响。"
 }
