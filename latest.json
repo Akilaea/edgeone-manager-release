@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.9",
-  "tag": "v1.0.9",
-  "publishedAt": "2026-11-24T07:08:00Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.9.tar.gz",
-  "releaseSha256": "a6da56be4a6d96e84eda4f34837fd0aba3f8ab20b5f14de5455a6f9da8bda056",
-  "releaseSize": 1610806,
-  "notes": "降低沙箱请求量：默认每线程 60 账号、单批最长 1500 秒，约 2-3 次请求覆盖 3400 秒持续执行，避免 300 秒短批高频触发网关限流。"
+  "version": "1.0.10",
+  "tag": "v1.0.10",
+  "publishedAt": "2026-11-24T07:14:00Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.10.tar.gz",
+  "releaseSha256": "92271159f339338755bd79aa0fbe5b755ab631b07a9e2c5acda9c1a8fad9c707",
+  "releaseSize": 1747183,
+  "notes": "TW_REG 2.0.2：/reg 新增 continuous 参数，在沙箱内后台循环批次；管理器每个容器只发一个启动请求。现有端点首次执行时懒升级到新发布包。"
 }
