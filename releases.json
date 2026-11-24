@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.8",
+  "latest": "1.0.9",
   "releases": [
+    {
+      "version": "1.0.9",
+      "tag": "v1.0.9",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.9.tar.gz",
+      "releaseSha256": "a6da56be4a6d96e84eda4f34837fd0aba3f8ab20b5f14de5455a6f9da8bda056",
+      "releaseSize": 1610806,
+      "notes": "默认每线程 60 账号、单批最长 1500 秒，约 2-3 次请求覆盖 3400 秒，降低网关限流。"
+    },
     {
       "version": "1.0.8",
       "tag": "v1.0.8",
@@ -9,16 +18,7 @@
       "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.8.tar.gz",
       "releaseSha256": "a78027e99bf2757e615d30632d53d5c5c1dd9444d2921a483d3b1d1bdb60a2c2",
       "releaseSize": 1610403,
-      "notes": "容器启动后持续按顺序派发批次到沙箱时长上限，不再一批就停。"
-    },
-    {
-      "version": "1.0.7",
-      "tag": "v1.0.7",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.7.tar.gz",
-      "releaseSha256": "f4bca4738500a1d1bc0db68a2c07a578e59aa668fa204a090e358824bb2360b4",
-      "releaseSize": 1609091,
-      "notes": "移除 rounds=28 默认值。"
+      "notes": "容器启动后持续按顺序派发批次到沙箱时长上限。"
     }
   ]
 }
