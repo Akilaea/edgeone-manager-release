@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.11",
-  "tag": "v1.0.11",
-  "publishedAt": "2026-11-24T07:25:00Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.11.tar.gz",
-  "releaseSha256": "59aff57c2e457579755a09fb7c455f901e9520c5063a185ef913f0ec0b7052f9",
-  "releaseSize": 1747478,
-  "notes": "仓库迁移至 xbox-cn：更新清单默认指向 xbox-cn/edgeone-manager-release；同时包含 TW_REG 2.0.2 continuous 启动。"
+  "version": "1.0.12",
+  "tag": "v1.0.12",
+  "publishedAt": "2026-11-24T07:34:00Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.12.tar.gz",
+  "releaseSha256": "82c6d24bebe962f5d23232c3cd893dbb34ee4912a513ce562e0c40072aaf64c1",
+  "releaseSize": 1751266,
+  "notes": "新增自动化日志页面（分页、筛选、触发方式、24h 统计），替代原测活设置入口；导航重新分组为资产/自动化/系统/开发者；调度设置移入自动化子页。"
 }
