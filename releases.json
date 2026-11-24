@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.9",
+  "latest": "1.0.10",
   "releases": [
+    {
+      "version": "1.0.10",
+      "tag": "v1.0.10",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.10.tar.gz",
+      "releaseSha256": "92271159f339338755bd79aa0fbe5b755ab631b07a9e2c5acda9c1a8fad9c707",
+      "releaseSize": 1747183,
+      "notes": "TW_REG 2.0.2 continuous 模式：一个启动请求，沙箱内部循环批次；端点懒升级。"
+    },
     {
       "version": "1.0.9",
       "tag": "v1.0.9",
@@ -9,16 +18,7 @@
       "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.9.tar.gz",
       "releaseSha256": "a6da56be4a6d96e84eda4f34837fd0aba3f8ab20b5f14de5455a6f9da8bda056",
       "releaseSize": 1610806,
-      "notes": "默认每线程 60 账号、单批最长 1500 秒，约 2-3 次请求覆盖 3400 秒，降低网关限流。"
-    },
-    {
-      "version": "1.0.8",
-      "tag": "v1.0.8",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.8.tar.gz",
-      "releaseSha256": "a78027e99bf2757e615d30632d53d5c5c1dd9444d2921a483d3b1d1bdb60a2c2",
-      "releaseSize": 1610403,
-      "notes": "容器启动后持续按顺序派发批次到沙箱时长上限。"
+      "notes": "默认每线程 60 账号、单批最长 1500 秒，约 2-3 次请求覆盖 3400 秒。"
     }
   ]
 }
