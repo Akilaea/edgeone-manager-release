@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.2",
-  "tag": "v1.0.2",
-  "publishedAt": "2026-11-24T06:20:00Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.2.tar.gz",
-  "releaseSha256": "18cd1781ee1046c7b9a9545a39161028ba0c1745ba411cfd0593312d7dec44ac",
-  "releaseSize": 1601745,
-  "notes": "TW_REG 改为勾选账号后直接执行：执行时自动配置缺失端点，容器启动成功即记为执行成功，不再预配置环境或持续观察轮次。"
+  "version": "1.0.3",
+  "tag": "v1.0.3",
+  "publishedAt": "2026-11-24T06:31:00Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.3.tar.gz",
+  "releaseSha256": "a352d58412171ca2993feb4753e049720b40fcc3aa82c3c03e071abf1f7e5044",
+  "releaseSize": 1610175,
+  "notes": "TW_REG 项目页：账号表分页（20/50/100，跨页保留选择，一键全选全部）；执行区与执行结果并排展示，压缩结果表列宽。"
 }
