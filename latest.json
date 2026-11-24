@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.8",
-  "tag": "v1.0.8",
-  "publishedAt": "2026-11-24T07:04:30Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.8.tar.gz",
-  "releaseSha256": "a78027e99bf2757e615d30632d53d5c5c1dd9444d2921a483d3b1d1bdb60a2c2",
-  "releaseSize": 1610403,
-  "notes": "快速执行改为持续批次：容器启动后按顺序不断派发批次直到沙箱时长上限，不会执行一批就空闲；仍不观察/回写注册结果。"
+  "version": "1.0.9",
+  "tag": "v1.0.9",
+  "publishedAt": "2026-11-24T07:08:00Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.9.tar.gz",
+  "releaseSha256": "a6da56be4a6d96e84eda4f34837fd0aba3f8ab20b5f14de5455a6f9da8bda056",
+  "releaseSize": 1610806,
+  "notes": "降低沙箱请求量：默认每线程 60 账号、单批最长 1500 秒，约 2-3 次请求覆盖 3400 秒持续执行，避免 300 秒短批高频触发网关限流。"
 }
