@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.2",
+  "latest": "1.0.3",
   "releases": [
+    {
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.3.tar.gz",
+      "releaseSha256": "a352d58412171ca2993feb4753e049720b40fcc3aa82c3c03e071abf1f7e5044",
+      "releaseSize": 1610175,
+      "notes": "TW_REG 账号分页、跨页全选、执行区与执行结果并排。"
+    },
     {
       "version": "1.0.2",
       "tag": "v1.0.2",
@@ -10,15 +19,6 @@
       "releaseSha256": "18cd1781ee1046c7b9a9545a39161028ba0c1745ba411cfd0593312d7dec44ac",
       "releaseSize": 1601745,
       "notes": "TW_REG 快速执行：执行时自动配置缺失端点，容器启动即成功，不再持续观察轮次。"
-    },
-    {
-      "version": "1.0.1",
-      "tag": "v1.0.1",
-      "date": "2026-11-22",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.1.tar.gz",
-      "releaseSha256": "3c7e5330f669e93073eaf18f13dbdebc8854b15833eee8322c42e40091ad73fa",
-      "releaseSize": 1600333,
-      "notes": "设置页加入版本与更新卡片：版本检测、自动更新开关、手动检查与立即更新。"
     }
   ]
 }
