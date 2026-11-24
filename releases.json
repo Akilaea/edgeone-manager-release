@@ -1,7 +1,16 @@
 {
   "app": "edgeone-manager",
-  "latest": "1.0.12",
+  "latest": "1.0.13",
   "releases": [
+    {
+      "version": "1.0.13",
+      "tag": "v1.0.13",
+      "date": "2026-11-24",
+      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.13.tar.gz",
+      "releaseSha256": "38887113f0974cd3463e355275031a8c6ec30ba31e0ff28faa21cabcb9875ae7",
+      "releaseSize": 1751618,
+      "notes": "设置页三标签：自动化/安全/系统；测活设置并入设置页。"
+    },
     {
       "version": "1.0.12",
       "tag": "v1.0.12",
@@ -9,16 +18,7 @@
       "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.12.tar.gz",
       "releaseSha256": "82c6d24bebe962f5d23232c3cd893dbb34ee4912a513ce562e0c40072aaf64c1",
       "releaseSize": 1751266,
-      "notes": "自动化日志页面 + 导航重分类；原测活设置移至自动化/调度设置。"
-    },
-    {
-      "version": "1.0.11",
-      "tag": "v1.0.11",
-      "date": "2026-11-24",
-      "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.11.tar.gz",
-      "releaseSha256": "59aff57c2e457579755a09fb7c455f901e9520c5063a185ef913f0ec0b7052f9",
-      "releaseSize": 1747478,
-      "notes": "仓库迁移至 xbox-cn。"
+      "notes": "自动化日志页面 + 导航重分类。"
     }
   ]
 }
