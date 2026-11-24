@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": "edgeone-manager",
-  "version": "1.0.6",
-  "tag": "v1.0.6",
-  "publishedAt": "2026-11-24T06:59:00Z",
-  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.6.tar.gz",
-  "releaseSha256": "aa204961e25fd4d1998e1a655e3384bb6e39a8babd97f7cb780ec1740bb1d533",
-  "releaseSize": 1609096,
-  "notes": "TW_REG 项目页精简：移除快速模式下无意义的注册/上传/vCPU 统计与预配置入口；账号表改为最近执行状态；运行详情适配启动模式。"
+  "version": "1.0.7",
+  "tag": "v1.0.7",
+  "publishedAt": "2026-11-24T07:00:30Z",
+  "releaseUrl": "http://47.98.228.129:57494/releases/edgeone-manager-1.0.7.tar.gz",
+  "releaseSha256": "f4bca4738500a1d1bc0db68a2c07a578e59aa668fa204a090e358824bb2360b4",
+  "releaseSize": 1609091,
+  "notes": "移除遗留的 rounds=28 默认值；快速执行只派发一批任务并确认容器启动，不再携带 28 轮概念。"
 }
